@@ -14,7 +14,7 @@ $submit = isset($_POST['submit']) ? $_POST['submit']: "";
 try {
 
 //MySQLコネクタを生成
-$link = mysqli_connect("localhost","root", "","world");
+$link = mysqli_connect("db", "root", "root", "world");
 
 //DBコネクションを生成
 if(!$link){
